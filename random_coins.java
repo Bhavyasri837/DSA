@@ -13,5 +13,4 @@ public class random_coins {
     {
         random(3, " ");
     }
-    
 }

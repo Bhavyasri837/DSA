@@ -60,7 +60,7 @@ class BinaryBalanced {
         // Case 1: LL (Left-Left)
         if (balance > 1 && key < root.left.data)
             return rightrotate(root);
-        // Case 2: RR (Right-Right)
+        // Case 2: RR (Right-Right) `   
         if (balance < -1 && key > root.right.data)
             return leftrotate(root);
         // Case 3: LR (Left-Right)
